@@ -1,7 +1,7 @@
 import axios from "axios";
-
+import { BACKEND_URL } from "./backend_url";
 const api = axios.create({
-  baseURL: "/api",
+  baseURL: `${BACKEND_URL}/api`||"/api",
 });
 
 // Request Interceptor

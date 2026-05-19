@@ -1,0 +1,1 @@
+export const BACKEND_URL='https://exam-platform-4ewy.onrender.com'
